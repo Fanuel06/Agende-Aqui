@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+#logo {
+    width: 150px; /* Ajuste o tamanho conforme necessário */
+}
+
+#dados-contato {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+#dados-contato p {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#dados-contato a {
+    color: #000;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* Estilo da Barra de Navegação */
+nav {
+    background-color: #0011ff;
+    padding: 10px 0;
+    font-size: 23px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo do Conteúdo da Página */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.container p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Estilo do Rodapé */
+footer {
+    background-color: #0011ff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

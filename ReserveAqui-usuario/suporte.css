@@ -1,0 +1,106 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilos para a barra de navegação */
+nav {
+    background-color: #0011ff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a {
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Estilos para o conteúdo da página */
+.container {
+    max-width: 800px;
+    margin: 70px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container p {
+    margin: 20px 0;
+    color: #333;
+}
+
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.redes li a {
+    color: #337ab7;
+}
+
+.redes li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo do Rodapé */
+footer {
+    background-color: #0011ff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

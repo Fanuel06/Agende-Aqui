@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo da Barra de Navegação */
+nav {
+    background-color: #0011ff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo do Conteúdo da Página */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.container p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Estilo do Formulário de Reserva */
+#reservaForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#reservaForm label {
+    margin-bottom: 5px;
+}
+
+#reservaForm input[type="text"],
+#reservaForm input[type="email"],
+#reservaForm select,
+#reservaForm input[type="date"],
+#reservaForm input[type="time"],
+#reservaForm input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#reservaForm input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+#reservaForm input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.politica-cancelamento {
+    justify-content: center;
+}
+
+/* Estilo do Rodapé */
+footer {
+    background-color: #0011ff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
